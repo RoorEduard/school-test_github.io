@@ -142,9 +142,6 @@ html {
     align-items: center;
 }
 
-.text{
-
-}
 
 .teleg{
     margin-left:10px;
@@ -288,9 +285,7 @@ html {
     padding-bottom: 50px;
 }
 
-.love_text{
-    
-}
+
 .love_glaf1{
     display: flex;
     justify-content: center;
@@ -583,8 +578,7 @@ input {
     border-radius: 50px;
 }
 
-.submit{
-}
+
 
 .btnform{
     margin-top: 20px;
@@ -651,8 +645,7 @@ button:hover {
     padding-bottom: 15px;
 }
 
-.footer_glaf{
-}
+
 
 .footer_glaf2{
     display: flex;
@@ -713,45 +706,9 @@ button:hover {
 }
 
 
-
-/* // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-
-}
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-
-}
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { 
-        .love_img{
-            display: inline;
-        }
-} */
-
-/* // `xs` returns only a ruleset and no media query
-// ... { ... } */
-
-/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .comparisons_glaf{
         display: block;
-    }
-    body{
-        /* margin: 0px;
-        padding: 0px; */
     }
 
     .hamburger-menu{
@@ -764,13 +721,22 @@ button:hover {
         text-align: center;
     }
 
+    .infimg{
+        width: 100%;
+    }
+
+    .lessons_title{
+        margin-left: 0px;
+    margin-right: 0px;
+    }
+
    .form {
    display: flex;
    justify-content: center;
    flex-direction: column;
    align-items: center;
  }
-    .number_img{
+ .number_img{
     display: none;
  }
 
@@ -801,9 +767,7 @@ button:hover {
     .header-buton{
         padding: 10px 20px ;
     }
-    .school{
-        
-    }
+
     .lessons_cords_img{
         height: 100%;
   width: 100%;
@@ -829,6 +793,11 @@ button:hover {
     }
     .lessons_cards_glaf2{
         display: block;
+    }
+
+    .lessons_title{
+        margin-left: 0px;
+    margin-right: 0px;
     }
     input{
         padding-left: 0px;
